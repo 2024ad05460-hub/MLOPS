@@ -1,10 +1,12 @@
-name: MLOps CI-CD
+name: MLOPS CI-CD
+run-name: GitHub Actions
 
 on:
   push:
     branches: [ main, master ]
   pull_request:
     branches: [ main, master ]
+
 
 jobs:
   test-lint-docker:
