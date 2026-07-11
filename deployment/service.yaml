@@ -5,8 +5,8 @@ metadata:
 spec:
   selector:
     app: heart-disease-api
+  type: LoadBalancer
   ports:
     - protocol: TCP
       port: 80
       targetPort: 8000
-  type: ClusterIP
